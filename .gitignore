@@ -2,5 +2,5 @@
 *.o
 dwm
 
-# Man page
-dwm.1
+# coc-ccls files
+.ccls-cache
