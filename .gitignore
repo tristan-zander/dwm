@@ -1,2 +1,6 @@
+# Binaries
 *.o
 dwm
+
+# Man page
+dwm.1
