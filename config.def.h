@@ -1,7 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-<<<<<<< HEAD
 static const unsigned int borderpx = 1; /* border pixel of windows */
 static const unsigned int snap = 32;    /* snap pixel */
 static const int showbar = 1;           /* 0 means no bar */
@@ -104,7 +103,7 @@ static Key keys[] = {
     {MODKEY | Mod1Mask | ShiftMask, XK_l, incrogaps, {.i = -1}},
     {MODKEY | Mod1Mask | ControlMask, XK_h, incrigaps, {.i = +1}},
     {MODKEY | Mod1Mask | ControlMask, XK_l, incrigaps, {.i = -1}},
-    {MODKEY | Mod4Mas1, XK_0, togglegaps, {0}},
+    {MODKEY | Mod1Mask, XK_0, togglegaps, {0}},
     {MODKEY | Mod1Mask | ShiftMask, XK_0, defaultgaps, {0}},
     {MODKEY, XK_y, incrihgaps, {.i = +1}},
     {MODKEY, XK_o, incrihgaps, {.i = -1}},
