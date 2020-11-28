@@ -34,6 +34,37 @@ static const unsigned int alphas[][3] = {
 };
 
 static const float alpha = 0.8f;
+static const char *const autostart[] = {
+    "st",
+    NULL,
+    "dunst",
+    NULL,
+    "sh",
+    "-c",
+    "xset r rate 280 40",
+    NULL,
+    "firefox",
+    NULL,
+    "discord",
+    NULL,
+    "picom",
+    NULL,
+    "sh",
+    "-c",
+    "feh --bg-scale ~/wallpaper.jpg",
+    NULL,
+    "flameshot",
+    NULL,
+    "pavucontrol",
+    NULL,
+    "thunderbird",
+    NULL,
+    "slstatus",
+    NULL,
+
+    NULL /* terminate */
+};
+
 /* tagging */
 static const char *tags[] = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
