@@ -30,7 +30,7 @@ static const unsigned int alphas[][3] = {
 
 static const float alpha = 0.8f;
 static const char *const autostart[] = {
-    "st",
+    "alacritty",
     NULL,
     "dunst",
     NULL,
