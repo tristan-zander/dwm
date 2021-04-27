@@ -22,6 +22,11 @@ static const char col_gray4[] = "#eeeeee";
 static const char col_cyan[] = "#005577";
 static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
+static const char *colors[][3] = {
+    /*               fg         bg         border   */
+    [SchemeNorm] = {col_gray3, col_gray1, col_gray2},
+    [SchemeSel] = {col_gray4, col_cyan, col_cyan},
+};
 static const unsigned int alphas[][3] = {
     /*               fg      bg        border     */
     [SchemeNorm] = {OPAQUE, baralpha, borderalpha},
@@ -109,7 +114,7 @@ static char dmenumon[2] =
 static const char *dmenucmd[] = {
     "dmenu_run", "-m",      dmenumon, "-fn",    dmenufont, "-nb",     col_gray1,
     "-nf",       col_gray3, "-sb",    col_cyan, "-sf",     col_gray4, NULL};
-static const char *termcmd[] = {"st", NULL};
+static const char *termcmd[] = {"alacritty", NULL};
 
 static Key keys[] = {
     /* modifier                     key        function        argument */
