@@ -62,6 +62,9 @@ static const char *const autostart[] = {
     "slstatus",
     NULL,
 
+    "cadence",
+    NULL,
+
     NULL /* terminate */
 };
 
